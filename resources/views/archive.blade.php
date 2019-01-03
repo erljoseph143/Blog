@@ -23,7 +23,7 @@
         <main class="l-main js-main">
             <div class="l-main-block"></div>
             <div class="page-number">
-                Page <span >1/4</span>
+                Page <span >{{$articles->currentPage()}}/{{$articles->lastPage()}}</span>
             </div>
             <div class="archive">
                 <ul class="archive-list">
